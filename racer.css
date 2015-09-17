@@ -1,7 +1,13 @@
 #welcome {
   text-align: center;
-  margin-top: 5%;
   margin-bottom: 7%;
+  margin-top: 4%;
+}
+
+#footprint {
+  width: 10%;
+  margin-left: 20%;
+  position: absolute;
 }
 
 #start {
