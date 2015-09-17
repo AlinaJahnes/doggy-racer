@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="racer.css">
   <title></title>
+  <link rel="stylesheet" type="text/css" href="racer.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="racer.js"></script>
 </head>
 <body>
-<div><img src="./img/dog-footprint.png" id="footprint"></div>
-<h1 id="welcome">Welcome to the Doggy Racer</h1>
-
+<div><img src="img/dog-footprint.png" id="footprint"></div>
+<h1 id="welcome">Welcome to Doggy Racer</h1>
 
 <div id="start">
 <button>Start!</button>
 <p>Press 'Q' for player 1, 'P' for player 2</p>
 </div>
 
-<div id="board">
-  <div id="track1"><img src="./img/running-dog.gif" id="player1" class="players"></div>
-  <div id="track2"><img src="./img/running-dog.gif" id="player2" class="players"></div>
-</div>
+<div id="notification"></div>
 
-  <script type="text/javascript" href="racer.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+<div id="board">
+  <div id="track1"><img src="./img/static-dog.png" id="player1" class="players"></div>
+  <div id="track2"><img src="./img/static-dog.png" id="player2" class="players"></div>
+</div>
 </body>
 </html>
