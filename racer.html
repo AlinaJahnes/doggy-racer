@@ -3,23 +3,34 @@
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="racer.css">
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="jquery-ui.min.js"></script>
   <script src="racer.js"></script>
 </head>
 <body>
-<div><img src="img/dog-footprint.png" id="footprint"></div>
-<h1 id="welcome">Welcome to Doggy Racer</h1>
+  <div class ="racer-link"><a href="#racer">Doggy Racer</a></div>
+  <img src="./img/doggy-racer.png" class="racer-link" id="racer-img">
 
-<div id="start">
-<button>Start!</button>
-<p>Press 'Q' for player 1, 'P' for player 2</p>
-</div>
+  <div id="modal-background"></div>
+  <div id="racer">
+    <button id="close-button">close</button>
+    <div><img src="./img/dog-footprint.png" id="footprint"></div>
+    <div><img src="./img/treat2.jpg" id="treat1"></div>
+    <div><img src="./img/treat1.jpg" id="treat2"></div>
+    <div id="welcome-container"><h1 id="welcome">Welcome to Doggy Racer</h1></div>
 
-<div id="notification"></div>
+    <div id="start">
+    <button id="start-button">Start!</button>
+    <p>Press 'Q' for Stanley, 'P' for Chewy</p>
+    </div>
 
-<div id="board">
-  <div id="track1"><img src="./img/static-dog.png" id="player1" class="players"></div>
-  <div id="track2"><img src="./img/static-dog.png" id="player2" class="players"></div>
-</div>
+    <div id="notification"></div>
+
+    <div id="board">    
+      <div id="track1"><p class="names">Stanely</p><img src="./img/static-dog.png" id="player1" class="players"></div>   
+      <div id="track2"><p class="names">Chewy</p><img src="./img/static-dog.png" id="player2" class="players"></div>
+    </div>
+  </div>
 </body>
 </html>
